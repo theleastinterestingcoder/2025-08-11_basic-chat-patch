@@ -1,0 +1,2 @@
+[run]
+cmd = "uv run main.py"
