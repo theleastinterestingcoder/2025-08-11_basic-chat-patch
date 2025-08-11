@@ -3,12 +3,13 @@ name = "basic-chat-gemini"
 version = "0.1.0"
 description = "Basic chat agent using Gemini"
 dependencies = [
-    "cartesia-voice-agents-sdk @ git+https://github.com/cartesia-ai/line@bo/main",
     "google-generativeai>=0.8.0",
     "google-genai>=1.26.0",
     "python-dotenv>=1.0.0",
     "loguru>=0.7.0",
     "aiohttp>=3.8.0",
+    "mcp>=1.0.0",
+    "fastapi>=0.115.0",
 ]
 
 requires-python = ">=3.10"
